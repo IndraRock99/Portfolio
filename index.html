@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="header">
+<div class="container">
+<nav>
+    
+<ul id="sidemenu">
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About us</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact Me</a></li>
+<i class="fas fa-times" onclick="closemenu()"></i>
+</ul>
+<i class="fas fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+<p>UI/UX Designer</p>
+<h1>Hi, I'm <span>Indrajeet</span><br> Kumar From India.</h1>
+
+
+</div>
+
+</div>
+    </div>
+
+
+
+  <!--  ------about------   -->
+<div id="about">
+<div class="container">
+<div class="row">
+
+    <div class="about-col-1">
+<img src="images/profile-pic.jpg">
+</div>
+
+<div class="about-col-2">
+<h1 class="sub-title">About me</h1>
+<p>Hello guys, I am Indrajeet Kumar and i am a full-stack developer and web designer. I have PDCA certificate in computer in 2017 and after that i honing my skills as core and advance java learner.</p>
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+<ul>
+    <li><span>UI/UX</span><br>Designing Web inerfaces</li>
+    <li><span>Web Development</span><br>Web Designer</li>
+    <li><span>Full Stack Development</span><br>Dynamic page Designer</li>
+</ul>
+</div>
+
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2023</span><br>As Full stack developer</li>
+        <li><span>2019</span><br>As Backend Designer</li>
+        <li><span>2017</span><br>As Frontend Designer</li>
+    </ul>
+    </div>
+
+    <div class="tab-contents" id="education">
+        <ul>
+            <li><span>2022-Present</span><br>Pursing MCA from SRMCEM </li>
+            <li><span>2021</span><br>Bsc in CS from Integral University</li>
+            <li><span>2017</span><br>12th From DRV Inter College</li>
+        </ul>
+        </div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- -------------services---------------- -->
+<div id="services">
+<div class="container">
+<h1 class="sub-title">My Services</h1>
+<div class="services-list">
+
+    <div>
+        <i class='fab fa-first-order'></i>
+<h2>Web Design</h2>
+<p>I make website designe look good. I use design programmes to create visual elements and have expertise in user interface (UI), which means i strategically design a site that's intuitive and easy for visitors to navigate.</p>
+ <a href="#"> Learn more</a>
+</div>
+
+<div>
+    <i class="fab fa-connectdevelop"></i>
+    <h2>UI/UX Design</h2>
+    <p>UX design focuses on creating a seamless and meaningful user experience by understanding user needs, conducting research, and designing intuitive interfaces, while UI design focuses on the visual, interactive elements of a product to create aesthetically-pleasing interfaces.</p>
+     <a href="#"> Learn more</a>
+    </div>
+
+    <div>
+        <i class="fab fa-empire"></i>
+        <h2>Full Stack Developer</h2>
+        <p>I can develop both client and server software and can also build both the front end and the back end of a website.</p>
+         <a href="#"> Learn more</a>
+        </div>
+
+</div>       
+</div>
+</div>
+<!-- -------portfolio------     -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+<div class="work-list">
+
+    <div class="work">
+<img src="images/work-1.png">
+<div class="layer">
+    <h3>Services Station webpage</h3>
+    <p>I created a webpage where vechile sevices provider can register themself and provide their facilities details and a user can access their services according to his need after paying a satisfy amount </p>
+<a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+</div>
+
+</div>
+
+
+<div class="work">
+    <img src="images/work-2.png">
+    <div class="layer">
+        <h3>Health page</h3>
+        <p>I created a webpage for different age patients for hositpal services. They can register themselves and ask for guidance from doctor and they can tell their health issue to doctors</p>
+    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+    </div>    
+</div>
+    
+    <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+            <h3>chat-bot</h3>
+            <p>I created a application for chat-bot in which a bot reply messages</p>
+        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </div>    
+    </div>
+
+</div>
+
+<a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+<!-- ------------contact----------------  -->
+<div id="contact">
+<div clasd="container">
+<div class="row">
+    <div class="contact-left">
+       <h1 class="sub-title">Contact Me</h1> 
+<p><i class="fa-brands fa-telegram"></i>indrajeetrock99@gmail.com</p>
+<p><i class="fa-solid fa-phone"></i>9140989027</p>
+<div class="social-icons">
+    <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.1007824&mcid=6844056167778418689&cid=&gclid=EAIaIQobChMI4-Sjp5qygQMVS6pmAh30DgmJEAAYASAAEgLtJPD_BwE&gclsrc=aw.ds"><i class="fa-brands fa-linkedin"></i></a>
+</div> 
+<a href="download files/my-cv.pdf" download class="btn btn2">Download CV</a>   
+    </div>
+    <div class="contact-right">
+<form name="submit-to-google-sheet">
+
+    <input type="text" name="Name" placeholder="Your name" autocomplete="given-name" required />
+    <input type="email" name="Email" placeholder="123@gmail.com" autocomplete="off" required/>
+    <textarea name="Message" rows="6" placeholder="Your comment"></textarea>  
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg">Hello User</span>
+    </div>
+</div>
+
+
+
+
+</div>
+
+<div class="copyright">
+    <p>Copyright @ Indrajeet. Made with hardwork by Easy Tutorials </p>
+</div>
+
+</div>
+
+<script>
+
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablink of tablinks)
+{
+tablink.classList.remove("active-link");
+}
+for(tabcontent of tabcontents)
+{
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+
+<script>
+var sidemenu=document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px"; 
+}
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxZOsa257epsLe-0a0LVwi9LxakCG9ZDaMlwRS845l61HPS-o6CKtC0s8EUrKrmHNth/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Thank you for your effort"
+            setTimeout(function()
+            {
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
